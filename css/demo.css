@@ -1,5 +1,5 @@
 /* General Blueprint Style */
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url('https://fonts.googleapis.com/css?family=Damion');
 @font-face {
 	font-family: 'bpicons';
 	src:url('../fonts/bpicons/bpicons.eot');
@@ -12,25 +12,25 @@
 } /* Made with http://icomoon.io/ */
 
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
-body, html { font-size: 100%; padding: 0; margin: 0;}
+body, html { font-size: 100%; padding: 0; margin: 0;color: #001e62}
 
 /* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
 .clearfix:before, .clearfix:after { content: " "; display: table; }
 .clearfix:after { clear: both; }
 
 body {
-    font-family: 'Lato', Calibri, Arial, sans-serif;
-    color: #fff;
-    background: #47a3da;
+    font-family: 'Damion';
+    color: #001e62;
+    background: #ff3052;
 }
 
 a {
-	color: #f0f0f0;
+	color: #001e62;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #000;
+	color: #001e62;
 }
 
 .container > header {

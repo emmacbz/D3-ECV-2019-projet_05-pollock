@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Blueprint: On Scroll Effect Layout</title>
+		<meta name="description" content="Blueprint: On Scroll Effect Layout" />
+		<meta name="keywords" content="on scroll, effect, slide in, layout, template, transition, javascript" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<header class="clearfix">
+				<span>Vacances! <span class="bp-icon bp-icon-about" data-content="VACANCES est une agence de voyage qui propose des voyages partout dan sle monde à petit prix."></span></span>
+				<h1>Petit tour du monde</h1>
+				
+			</header>
+			<div id="cbp-so-scroller" class="cbp-so-scroller">
+				<section class="cbp-so-section">
+					<article class="cbp-so-side cbp-so-side-left">
+						<h2>Allemagne</h2>
+						<p>L'Allemagne est un beau pays européen dont la capitale est Berlin. Il s'agit d'une ville cosmopolite, très axée sur la culture, ce qui la rends très agréable à vivre.</p>
+					</article>
+					<figure class="cbp-so-side cbp-so-side-right">
+						<img src="images/allamagne.jpg" alt="img01">
+					</figure>
+				</section>
+				<section class="cbp-so-section">
+					<figure class="cbp-so-side cbp-so-side-left">
+						<img src="images/canada.jpg" alt="img01">
+					</figure>
+					<article class="cbp-so-side cbp-so-side-right">
+						<h2>Canada</h2>
+						<p>Le Canada est un immense pays d'amérique du nord, contenant la province francophone de Quebec. Il y fait très chaud l'été et très froid l'hiver, ce qui donne à ce pays des paysages à couper le souffle.
+						</p>
+					</article>
+				</section>
+				<section class="cbp-so-section">
+					<article class="cbp-so-side cbp-so-side-left">
+						<h2>France</h2>
+						<p>Sa capitale est Paris, pays du luxe et de la gastronomie, la France abrite aussi de nombreuses régions très différentes, abritant de magnifiques traditions et paysages.</p>
+					</article>
+					<figure class="cbp-so-side cbp-so-side-right">
+						<img src="images/france.jpg" alt="img01">
+					</figure>
+				</section>
+				<section class="cbp-so-section">
+					<figure class="cbp-so-side cbp-so-side-left">
+						<img src="images/italie.jpg" alt="img01">
+					</figure>
+					<article class="cbp-so-side cbp-so-side-right">
+						<h2>Italie</h2>
+						<p>Pays du soleil, le climat est très agréable, de plus l'Italie est un pays d'histoire, regorgeant de vestiges plus intéressants et beaux les uns que les autres</p>
+					</article>
+				</section>
+				<section class="cbp-so-section">
+					<article class="cbp-so-side cbp-so-side-left">
+						<h2>Japon</h2>
+						<p>Le Japon est un pays délicat, dont la culture est très différente de la culture européenne, alternant entre mets traditionels et goûteux, évènments musicaux surprenants et rites traditionels magnifiques et passionants.</p>
+					</article>
+					<figure class="cbp-so-side cbp-so-side-right">
+						<img src="images/japon.jpg" alt="img01">
+					</figure>
+				</section>
+				<section class="cbp-so-section">
+					<figure class="cbp-so-side cbp-so-side-left">
+						<img src="images/maroc.jpg" alt="img01">
+					</figure>
+					<article class="cbp-so-side cbp-so-side-right">
+						<h2>Maroc</h2>
+						<p>Pays au climat paradisiaque, la nourriture est riche et colorée, les paysages sont surprenants et magnifiques, sans oublier le désert, perle de la nature.</p>
+					</article>
+				</section>
+			</div>
+		</div>
+		<script src="js/classie.js"></script>
+		<script src="js/cbpScroller.js"></script>
+		<script>
+			new cbpScroller( document.getElementById( 'cbp-so-scroller' ) );
+		</script>
+	</body>
+</html>
